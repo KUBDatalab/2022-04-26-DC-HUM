@@ -130,11 +130,11 @@ address.
 {% assign online = "false" %}
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
-  <p id="register-here">
-  <strong>Register here:</strong> <a href="https://kubkalender.kb.dk/event/3864723" target="_blank">Copenhagen University Library</a>
+  <p id="register-here-April-26">
+  <strong>Register here 26th April:</strong> <a href="https://kubkalender.kb.dk/event/3864723" target="_blank">Copenhagen University Library</a>
 <p id="where">
-  <p id="register-here">
-  <strong>Register here:</strong> <a href="https://kubkalender.kb.dk/event/3864724" target="_blank">Copenhagen University Library</a>
+  <p id="register-here-May-3">
+  <strong>Register here 3rd May:</strong> <a href="https://kubkalender.kb.dk/event/3864724" target="_blank">Copenhagen University Library</a>
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
