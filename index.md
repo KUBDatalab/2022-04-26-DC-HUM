@@ -6,7 +6,7 @@ layout: workshop      # DON'T CHANGE THIS.
 venue: "Copenhagen University, South Campus"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: " Room 4a.1.60, Njalsgade 76, 2300 Copenhagen S"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "dk"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
-language: "eng"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "55.676098"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "12.568337"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "April 26 and Maj 3, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
@@ -261,7 +261,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to ....
+    This workshop is open to students and researchers interested in working with data in the context of the Humanities
 </p>
 {% endcomment %}
 
