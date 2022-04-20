@@ -4,12 +4,12 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Copenhagen University, South Campus"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: " Room 4a.1.60, Njalsgade 76, 2300 Copenhagen S"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: " t.b.a"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "dk"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "55.676098"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "12.568337"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "April 26 and Maj 3, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "t.b.a"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9.00 am - 4.00 pm"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-04-26      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-05-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -130,11 +130,11 @@ address.
 {% assign online = "false" %}
 {% endif %}
 {% if page.latitude and page.longitude and online == "false" %}
-  <p id="register-here-April-26">
-  <strong>Register here 26th April:</strong> <a href="https://kubkalender.kb.dk/event/3864723" target="_blank">Copenhagen University Library</a>
+  <p id="xxx">
+  <strong>Register here xxx:</strong> <a href="url" target="_blank">Copenhagen University Library</a>
 <p id="where">
-  <p id="register-here-May-3">
-  <strong>Register here 3rd May:</strong> <a href="https://kubkalender.kb.dk/event/3864724" target="_blank">Copenhagen University Library</a>
+  <p id="xxx">
+  <strong>xxx:</strong> <a href="url</a>
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
