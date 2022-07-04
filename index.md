@@ -132,6 +132,7 @@ address.
 {% if page.latitude and page.longitude and online == "false" %}
   <p id="xxx">
   <strong>Register here:</strong> <a href="https://kubkalender.kb.dk/calendar/datalab?cid=6416&t=d&d=0000-00-00&cal=6416&inc=0" target="_blank">Copenhagen University Library</a>
+ </p> 
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
